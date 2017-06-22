@@ -7,5 +7,5 @@ window.dataLayer.push({
     'action' : 'Share',
     'label' : 'Footer',
   },
-  'event' : 'Twitter Share'
+  'event' : 'twitterShareFooter'
 });

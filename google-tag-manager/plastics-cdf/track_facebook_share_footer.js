@@ -7,5 +7,5 @@ window.dataLayer.push({
     'action' : 'Share',
     'label' : 'Page Footer',
   },
-  'event' : 'Facebook Share'
+  'event' : 'facebookShareFooter'
 });

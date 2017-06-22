@@ -7,5 +7,5 @@ window.dataLayer.push({
     'action' : 'Share',
     'label' : 'Thank You Page',
   },
-  'event' : 'Twitter Share'
+  'event' : 'twitterShareThankYou'
 });
