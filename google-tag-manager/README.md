@@ -1,4 +1,4 @@
-#Google Tag Manager Container
+# Google Tag Manager code container
 
 ## Pixels
 
