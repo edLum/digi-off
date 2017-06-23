@@ -20,22 +20,21 @@ Track donation form submission process. We are only interested only in the "firs
 
 * Second Step: Invoke dataLayer push found in `track_form_second.js` on second step
 
-## Social Media Buttons
+## Social Media(SoMe) Buttons
 ![Footer SoMe buttons](http://i.imgur.com/qhVDSeI.png)
 ### Obective
 
 Track clicks on Social Media buttons. We record seperate events for social media (twitter | facebook) and button placement (page-footer | thank-you-page).
 
-### Page Footer Scripts
+### Implementation
 
-* Facebook: Invoke dataLayer push found in `track_facebook_share_footer.js` on FB share button clicked.
+On "click" to a SoMe button push to the dataLayer an object describing the event. In the following table you will find the script containing the push for every SoMe "button".
 
-* Twitter: Invoke script `track_twitter_share_footer.js` on button clicked.
+Action | Location | Script to use 
+------------ | ------------- | ---------------
+Facbook Share | Footer | `track_facebook_share_footer.js`
+Facebook Share | Thank You | `track_facebook_share_thank_you.js`
+Twitter Share | Footer | `track_twitter_share_footer.js`
+Twitter Share | Thank You | `track_twitter_share_thank_you.js`
 
-### Thank You Page Scripts
 
-![Thank You Page SoMe buttons](http://insert-png-url.here/img.png)
-
-* Facebook: Invoke script `track_facebook_share_thank_you.js` on button clicked.
-
-* Facebook: Invoke script `track_twitter_share_thank_you.js` on button clicked.
