@@ -2,10 +2,10 @@
 // TODO: Implement to be executed when the twitter share button on the footer's page is clicked.
 
 window.dataLayer.push({
-  'twShare' : {
+  'cdfSoMeShare' : {
     'category': 'Twitter',
     'action' : 'Share',
     'label' : 'Footer',
   },
-  'event' : 'twitterShareFooter'
+  'event' : 'cdfSoMeShared'
 });
