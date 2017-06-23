@@ -1,3 +1,7 @@
+# Plastics Crowdfunding - Google Tag Manager(GTM) setup
+
+Documenting how the dataLayer is setup in the plastics crowdfunding page to enable several events tracking. 
+
 ## Donation Tracking
 
 ### Objective
@@ -6,11 +10,13 @@ Tracking donation completion event. On donation completion push to the dataLayer
 
 ### Implementation
 
-On user submitting the form, push to dataLayer the folloing data:
+On user submitting the form, push to dataLayer the following data:
 * value (dynamic - `giftAmountTracker`)
 * action (dynamic - `paymentMethod`)
 * category (static - "Once Off Donation")
 * label (static - "Plastics Crowdfunding")
+
+In the following table you will find the script implementing the process above:
 
 Action |  Script to use | Additional Info
 ------------ | ------------- | ---------------
