@@ -41,7 +41,7 @@ Step 2 to Step 3|  `track_form_second.js`
 ![Footer SoMe buttons](http://i.imgur.com/qhVDSeI.png)
 ### Obective
 
-Tracking clicks on Social Media buttons. We record seperate events for social media (twitter | facebook) and button placement (page-footer | thank-you-page).
+Tracking clicks on Social Media buttons. We record an event for all social media (twitter | facebook) and button placements (page-footer | thank-you-page), recording the various info in event category, action and label.
 
 ### Implementation
 
