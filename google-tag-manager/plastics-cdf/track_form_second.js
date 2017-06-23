@@ -2,12 +2,12 @@
 // A user clicks the next button after filling the first form.
 
 window.dataLayer.push({
-  'secondForm' : {
+  'cdfDonationForm' : {
     'category' : 'Donation Form',
     'action' : 'Submit',
-    'label' : 'Second Form',
+    'label' : 'Second Step',
   },
-  'event' : 'secondFormSubmitted'
+  'event' : 'cdfFormSubmitted'
 });
 
 
