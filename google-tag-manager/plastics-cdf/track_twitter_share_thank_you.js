@@ -2,10 +2,10 @@
 // TODO: Implement to be executed when the twitter button on the thank you page is clicked.
  
 window.dataLayer.push({
-  'twShare' : {
+  'cdfSoMeShare' : {
     'category': 'Twitter',
     'action' : 'Share',
     'label' : 'Thank You Page',
   },
-  'event' : 'twitterShareThankYou'
+  'event' : 'cdfSoMeShared'
 });
