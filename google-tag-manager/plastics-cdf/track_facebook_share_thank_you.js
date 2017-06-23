@@ -2,10 +2,10 @@
 // TODO: Implement to be executed when the facebook button on the thank you page is clicked.
 
 window.dataLayer.push({
-  'fbShare' : {
+  'cdfSoMeShare' : {
     'category': 'Facebook',
     'action' : 'Share',
     'label' : 'Thank You Page',
   },
-  'event' : 'facebookShareThankYou'
+  'event' : 'cdfSoMeShare'
 });
