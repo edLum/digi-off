@@ -7,7 +7,7 @@ if($("#successBox").hasClass("show")){
   window.dataLayer.push({
     'cdfDonation' : {
       'value': giftAmountTracker,
-      'action': paymentMethod,
+      'action': "Donated With Credit Card",
       'category': 'Once-Off Donation',
       'label' : 'Plastics Crowdfunding'
     },
