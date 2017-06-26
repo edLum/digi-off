@@ -5,7 +5,7 @@ if($("#successBox").hasClass("show")){
   var paymentMethod = ""; // TODO: Implement getting the payment method.
 
   window.dataLayer.push({
-    'cdfDonation' : {
+    'plasticsCdfDonation' : {
       'value': giftAmountTracker,
       'action': "Donated With Credit Card",
       'category': 'Once-Off Donation',
