@@ -4,6 +4,6 @@ window.dataLayer.push{
   'category': 'calendar',
   'action': 'pick-date',
   'label': 'fish-box',
-  'event': 'datePicked'
+  'event': 'date-picked'
 });
 

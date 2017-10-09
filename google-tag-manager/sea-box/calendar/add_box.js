@@ -4,6 +4,6 @@ window.dataLayer.push{
   'category': 'calendar',
   'action': 'add-box',
   'label': 'fish-box',
-  'event': 'boxAdded'
+  'event': 'box-added'
 });
 
