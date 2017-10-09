@@ -4,7 +4,9 @@ window.dataLayer.push{
   'category': 'thank-you',
   'action': 'purchase-complete', 
   'label': 'fish-box',
-  'value': variableForFishBoxPrice,
+  'quantity-small': numberOfSmallBoxes
+  'quantity-large': numberOfLargeBoxes
+  'value': totalPurchaseValue,
   'event': 'purchase-completed'
 });
 
