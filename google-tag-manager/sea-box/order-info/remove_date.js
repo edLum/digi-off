@@ -4,6 +4,6 @@ window.dataLayer.push{
   'category': 'order-info,
   'action': 'remove-date',
   'label': 'fish-box',
-  'event': 'remove-date-from-cart'
+  'event': 'removed-date-from-cart'
 });
 

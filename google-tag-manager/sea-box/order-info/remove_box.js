@@ -2,8 +2,8 @@
 
 window.dataLayer.push{
   'category': 'order-info',
-  'action': 'remove-box', 
+  'action': 'remove-box-from-date', 
   'label': 'fish-box',
-  'event': 'remove-box-from-date'
+  'event': 'box-removed-from-date'
 });
 

@@ -2,8 +2,8 @@
 
 window.dataLayer.push{
   'category': 'order-info',
-  'action': 'add-to-cart', 
+  'action': 'add-date-to-cart', 
   'label': 'fish-box',
-  'event': 'added-to-cart'
+  'event': 'date-added-to-cart'
 });
 
