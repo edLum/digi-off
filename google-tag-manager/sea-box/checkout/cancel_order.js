@@ -4,6 +4,5 @@ window.dataLayer.push{
   'category': 'checkout',
   'action': 'cancel-order', 
   'label': 'fish-box',
-  'event': 'checkout-cancel-order'
-});
+  'event': 'order-cancelled'
 

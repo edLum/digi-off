@@ -4,6 +4,6 @@ window.dataLayer.push{
   'category': 'checkout',
   'action': 'place-order', 
   'label': 'fish-box',
-  'event': 'checkout-place-order'
+  'event': 'order-placed'
 });
 
