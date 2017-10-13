@@ -2,8 +2,8 @@
 
 window.dataLayer.push{
   'category': 'calendar',
-  'action': 'pick-date',
+  'action': 'change-month',
   'label': 'fish-box',
-  'event': 'date-picked'
+  'event': 'month-changed'
 });
 
