@@ -1,8 +1,8 @@
 //  to be fired when an order is cancelled in the checkout page.
 
-window.dataLayer.push{
+window.dataLayer.push({
   'category': 'checkout',
-  'action': 'cancel-order', 
+  'action': 'back-to-form', 
   'label': 'fish-box',
-  'event': 'order-cancelled'
-
+  'event': 'back-to-form-clicked'
+});
